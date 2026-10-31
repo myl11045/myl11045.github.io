@@ -38,9 +38,3 @@ My current research interests include **world models, representation learning, a
 - Outstanding Graduate, University of Chinese Academy of Sciences, 2024.
 - Campus Scholarship, Tsinghua University, 2018–2019.
 
-# Contact
-
-{% if site.author.email %}
-- **Email:** [{{ site.author.email }}](mailto:{{ site.author.email }})
-{% endif %}
-- **GitHub:** [myl11045](https://github.com/myl11045)
