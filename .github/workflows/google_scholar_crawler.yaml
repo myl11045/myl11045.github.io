@@ -1,9 +1,8 @@
 name: Get Citation Data
 
-on: 
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
+# 默认不自动获取引用数据；需要时先配置 GOOGLE_SCHOLAR_ID，再手动运行。
+on:
+  workflow_dispatch:
 
 jobs:
   build:
